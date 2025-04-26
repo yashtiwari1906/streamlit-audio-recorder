@@ -5,7 +5,7 @@ from io import BytesIO
 import streamlit.components.v1 as components
 
 
-def st_audiorec(key=None):
+def st_audiorec(key=""):
 
     # get parent directory relative to current directory
     parent_dir = os.path.dirname(os.path.abspath(__file__))
